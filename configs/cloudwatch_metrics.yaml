@@ -1,0 +1,9 @@
+log_group: /fraud-detection/logs
+retention_days: 7
+metrics:
+  - name: fraud_predictions
+    source: Lambda
+  - name: data_ingestion_rate
+    source: Kinesis
+  - name: model_latency
+    source: SageMaker

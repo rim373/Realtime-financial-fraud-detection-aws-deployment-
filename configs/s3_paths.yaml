@@ -1,0 +1,3 @@
+raw_data: s3://rim-fraud-data-bucket/raw/
+processed_data: s3://rim-fraud-data-bucket/processed/
+models: s3://rim-fraud-data-bucket/models/
